@@ -1,0 +1,24 @@
+{
+  "BIT240025_DishCategory": {
+    "BIT240025_RemoteId": "Object ID (rename default id)",
+    "BIT240025_Id": "String",
+    "BIT240025_Name": "String",
+    "BIT240025_Description": "String",
+    "BIT240025_Version": "String",
+    "BIT240025_Deleted": "Boolean"
+  },
+  "BIT240025_Dish": {
+    "BIT240025_RemoteId": "Object ID (rename default id)",
+    "BIT240025_Id": "String",
+    "BIT240025_Name": "String",
+    "BIT240025_Price": "Number",
+    "BIT240025_PreparationTime": "Number",
+    "BIT240025_IsAvailable": "Boolean",
+    "BIT240025_Description": "String",
+    "BIT240025_DishCategoryId": "String",
+    "BIT240025_DishImage": "Array",
+    "BIT240025_Version": "String",
+    "BIT240025_Deleted": "Boolean"
+  },
+  "DishImageNote": "Object ID mặc định: đổi tên thành BIT240025_RemoteId. BIT240025_Id là String riêng để giữ mã ứng dụng ổn định khi offline. Mỗi object ảnh có BIT240025_ImageUrl (String), BIT240025_IsThumbnail (Boolean)."
+}

@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "BIT240025_FoodManager",
+    "slug": "bit240025-foodmanager",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.student.bit240025.foodmanager"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "package": "com.student.bit240025.foodmanager"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

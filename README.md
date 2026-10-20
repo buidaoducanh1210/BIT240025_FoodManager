@@ -94,23 +94,5 @@ npm run export:android
 
 Test dùng local storage/REST mô phỏng, không ghi vào tài khoản MockAPI thật. Bản export Android kiểm tra bundle JavaScript, **không phải file APK** và không thay thế demo trên emulator. Chạy checklist trong docs/CHECKLIST.md trước khi quay.
 
-## Nộp bài và video
-
-- Trong ca: link Git source code + Video 1 demo app lên LMS.
-- Chậm nhất 23/10/2026: Video 2 thuyết minh code có lời nói lên LMS.
-- Kịch bản: docs/VIDEO_1.md, docs/VIDEO_2.md; giải thích code: docs/GIAI_THICH_CODE.md.
-- docs/THONG_TIN_NOP_BAI.md đã có MSSV BIT240025; tự điền tên, link Git, URL API và hai video.
-- Không có video quay sẵn hoặc link Git giả trong bộ source. Hai video phải thể hiện thao tác/thuyết minh của chính bạn.
-
-Tạo repository Git trống của bạn, sau đó chạy trong project:
-
-```powershell
-git init
-git add .
-git commit -m "Complete Food Manager midterm"
-git branch -M main
-```
-
-Sau đó thêm remote bằng URL repository thật của bạn và push theo hướng dẫn GitHub. Không commit node_modules, .expo, dist hoặc thông tin bí mật.
 
 Tài liệu chính thức: https://docs.expo.dev/ ; https://react-native-async-storage.github.io/async-storage/ ; https://github.com/react-native-netinfo/react-native-netinfo ; https://mockapi.io/

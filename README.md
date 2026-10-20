@@ -92,7 +92,5 @@ npm run export:web
 npm run export:android
 ```
 
-Test dùng local storage/REST mô phỏng, không ghi vào tài khoản MockAPI thật. Bản export Android kiểm tra bundle JavaScript, **không phải file APK** và không thay thế demo trên emulator. Chạy checklist trong docs/CHECKLIST.md trước khi quay.
-
 
 Tài liệu chính thức: https://docs.expo.dev/ ; https://react-native-async-storage.github.io/async-storage/ ; https://github.com/react-native-netinfo/react-native-netinfo ; https://mockapi.io/
